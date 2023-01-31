@@ -4,10 +4,10 @@ import time as t
 import pandas as pd
 from datetime import datetime
 
-auth = tweepy.OAuthHandler('gZXDr24g4UKgmCPBr4O4tWxm5',
-                           'g30WqjbOGvghalJjwJsBh6u0w5I7u1ySGJneqZ4XU9XwQ9erN0')
-auth.set_access_token('1620230411560386562-l5HSPdxsuUQExNPweTffDuNabW7m2u',
-                      'bksdOztuiY97bxa5DQajqTGTxg18TcLbY2L9SoA8Ls9KM')
+auth = tweepy.OAuthHandler('yourapikey',
+                           'yourapikeysecret')
+auth.set_access_token('youracesstoken',
+                      'youraccesstokensecret')
 api = tweepy.API(auth)
 
 user_name = ['zg_ops', 'elonmusk']
